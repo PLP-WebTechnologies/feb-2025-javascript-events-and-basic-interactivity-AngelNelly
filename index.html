@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Angela Chinweike's Skills</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="skills-section">
+      <h2>MY SKILLS</h2>
+      <div class="skill-item">
+        <label for="photoshop">Photoshop</label>
+        <div class="progress-bar">
+          <div
+            class="progress"
+            style="width: 85%"
+            data-skill="Photoshop"
+            data-value="85"
+          ></div>
+          <span class="percentage">85%</span>
+        </div>
+      </div>
+      <div class="skill-item">
+        <label for="illustrator">Illustrator</label>
+        <div class="progress-bar">
+          <div
+            class="progress"
+            style="width: 75%"
+            data-skill="Illustrator"
+            data-value="75"
+          ></div>
+          <span class="percentage">75%</span>
+        </div>
+      </div>
+      <div class="skill-item">
+        <label for="figma">Figma</label>
+        <div class="progress-bar">
+          <div
+            class="progress"
+            style="width: 90%"
+            data-skill="Figma"
+            data-value="90"
+          ></div>
+          <span class="percentage">90%</span>
+        </div>
+      </div>
+      <div class="skill-item">
+        <label for="animate">Animate</label>
+        <div class="progress-bar">
+          <div
+            class="progress"
+            style="width: 70%"
+            data-skill="Animate"
+            data-value="70"
+          ></div>
+          <span class="percentage">test</span>
+        </div>
+      </div>
+      <div class="skill-item">
+        <label for="html5">HTML5</label>
+        <div class="progress-bar">
+          <div
+            class="progress"
+            style="width: 95%"
+            data-skill="HTML5"
+            data-value="95"
+          ></div>
+          <span class="percentage">95%</span>
+        </div>
+      </div>
+      <div class="skill-item">
+        <label for="css3">CSS3</label>
+        <div class="progress-bar">
+          <div
+            class="progress"
+            style="width: 90%"
+            data-skill="CSS3"
+            data-value="90"
+          ></div>
+          <span class="percentage">90%</span>
+        </div>
+      </div>
+      <div class="skill-item">
+        <label for="media-query">Media Query</label>
+        <div class="progress-bar">
+          <div
+            class="progress"
+            style="width: 85%"
+            data-skill="Media Query"
+            data-value="85"
+          ></div>
+          <span class="percentage">85%</span>
+        </div>
+      </div>
+      <div class="skill-item">
+        <label for="jquery">jQuery</label>
+        <div class="progress-bar">
+          <div
+            class="progress"
+            style="width: 70%"
+            data-skill="jQuery"
+            data-value="70"
+          ></div>
+          <span class="percentage">70%</span>
+        </div>
+      </div>
+
+      <div class="interactive-section">
+        <h3>Interactive Fun!</h3>
+        <button id="changeTextButton">Click Me!</button>
+        <div id="imageGallery">
+          <img src="Angela Chinweike No-BG.png" alt="Image 1" class="active" />
+          <img src="WP_20140709_003.jpg" alt="Image 2" />
+          <img src="Angela-Laptop-No-Bg.png" alt="Image 3" />
+          <div class="gallery-controls">
+            <button id="prevImage">Previous</button>
+            <button id="nextImage">Next</button>
+          </div>
+        </div>
+
+        <div class="accordion">
+          <div class="accordion-item">
+            <button class="accordion-header">Section 1</button>
+            <div class="accordion-content">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error
+              eius labore libero. Voluptates voluptate placeat accusamus cumque
+              ratione ullam labore voluptatibus perferendis quo sit odit sequi,
+              doloremque nostrum eligendi? Eum voluptate corporis expedita
+              facere esse porro accusamus dolores dicta deserunt quia nulla
+              ullam animi, cumque maiores, corrupti sequi. Quod, atque?
+            </div>
+          </div>
+          <div class="accordion-item">
+            <button class="accordion-header">Section 2</button>
+            <div class="accordion-content">
+              More exciting content for section 2!
+            </div>
+          </div>
+          <div class="accordion-item">
+            <button class="accordion-header">Section 3</button>
+            <div class="accordion-content">
+              And finally, some details about section 3.
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="form-validation-section">
+        <h3>Form Time</h3>
+        <form id="myForm">
+          <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" id="name" required />
+            <div class="error-message" id="nameError"></div>
+          </div>
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" required />
+            <div class="error-message" id="emailError"></div>
+          </div>
+          <div class="form-group">
+            <label for="password">Password:</label>
+            <input type="password" id="password" required />
+            <div class="error-message" id="passwordError"></div>
+            <small>Minimum 8 characters.</small>
+          </div>
+          <button type="submit">Submit</button>
+          <div id="formMessage" class="form-message"></div>
+        </form>
+      </div>
+
+      <div class="secret-area" id="secretArea">
+        Double-click or long press me for a surprise!
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
